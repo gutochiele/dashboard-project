@@ -22,17 +22,16 @@ body {
     grid-row: 1 / -1;
     padding: 10%;
     display: grid;
-    height: fit-content;
     align-self: start;
-    min-width: fit-content;
     position: sticky;
     top: 0;
     gap: 15%;
 }
 
 #main-logo{
-    display: flex;
+    display: grid;
     align-items: center;
+    grid-template-columns: 1fr 4fr;
 }
 
 #main-logo>p{
@@ -40,10 +39,15 @@ body {
     margin-left: 2%;
 }
 
+#main-logo>img{
+    fill: white;
+}
+
 .menu{
-    display: flex;
-    padding: 2%;
+    display: grid;
     align-items: center;
+    grid-template-columns: 1fr 4fr;
+    padding: 2%;
 }
 
 .menu>div{
@@ -94,6 +98,7 @@ body {
     grid-column: 1 / 2;
     display: flex;
     margin-left: 5vw;
+    margin-bottom: 3vh;
     align-items: center;
 }
 
@@ -101,6 +106,10 @@ body {
     flex: 0;
     height: 8vh;
     padding-right: 2vw;
+}
+
+#greetings-text>p, h2{
+    margin: 0;
 }
 
 #header-menu{
