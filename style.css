@@ -8,11 +8,13 @@ body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
     height: 100vh;
+    color: #ffe4c4;
+    background-color: #3f3f3f;
 }
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
 }
 
@@ -31,7 +33,11 @@ body {
 #main-logo{
     display: flex;
     align-items: center;
+}
+
+#main-logo>p{
     font-size: 1.8rem;
+    margin-left: 2%;
 }
 
 .menu{
@@ -46,9 +52,10 @@ body {
 
 
 #header{
-    border: 1px solid black;
+    border: 1px solid #ffe4c4;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    background-color: #3f3f3f;
 }
 
 #header-upper-bar{
@@ -108,7 +115,8 @@ body {
 
 
 #main-content{
-    border: 1px solid black;
+    border: 1px solid #ffe4c4;
+    background-color: #606060;
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -131,22 +139,22 @@ body {
   }
 
 #projects .card {
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #ffe4c4;
+    color: #ffe4c4;
     text-align: center;
     height: 30vh;
     width: 25vw;
 }
 
 #announcements{
-    border: 1px solid black;
+    border: 1px solid #ffe4c4;
     margin: 10%;
     height: 40vh;
     width: 15vw;
 }
 
 #trending{
-    border: 1px solid black;
+    border: 1px solid #ffe4c4;
     margin: 10%;
     height: 40vh;
     width: 15vw;
