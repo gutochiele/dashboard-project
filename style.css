@@ -213,6 +213,10 @@ body {
     margin-right: 25px;
 }
 
+.icon-bar>i{
+    margin-left: 10px;
+}
+
 #announcements{
 
     height: 50vh;
